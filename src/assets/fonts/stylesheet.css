@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Beau Rivage';
+    src: url('BeauRivage-Regular.eot');
+    src: local('Beau Rivage Regular'), local('BeauRivage-Regular'),
+        url('BeauRivage-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BeauRivage-Regular.woff2') format('woff2'),
+        url('BeauRivage-Regular.woff') format('woff'),
+        url('BeauRivage-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

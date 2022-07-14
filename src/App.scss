@@ -1,0 +1,37 @@
+$primary-color: #fe00ae;
+
+@import 'animate.css';
+
+@font-face {
+  font-family: 'Helvetica Now Text';
+  src: url(./assets/fonts/HelveticaNowText-Regular.woff2) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Beau Rivage';
+  src: url(./assets/fonts/BeauRivage-Regular.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'La Belle Aurore';
+  src: url(./assets/fonts/LaBelleAurore.ttf) format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: url(./assets/fonts/CoolveticaRg-Regular.woff2) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+input,
+textarea {
+  font-family: 'Helvetica Now Text';
+}
