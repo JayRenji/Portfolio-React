@@ -1,5 +1,11 @@
 {
     "cSpell.words": [
         "Jsolo"
+    ],
+    "cSpell.ignoreWords": [
+        "cubespinner",
+        "fontawesome",
+        "fortawesome",
+        "spincube"
     ]
 }
