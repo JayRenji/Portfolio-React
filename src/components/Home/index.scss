@@ -100,3 +100,67 @@ h2 {
     color: #333;
   }
 }
+
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+);
+
+@media screen and (max-width: 576px) {
+  .home-page {
+    h1 {
+      font-size: 32px;
+      margin-top: -146px;
+
+      &::before {
+        font-size: 14px;
+      }
+
+      &::after {
+        margin-top: 50px;
+        margin-left: -27px;
+        font-size: 14px;
+      }
+      img {
+        width: 43px;
+      }
+    }
+    h2 {
+      display: table-caption;
+      margin-top: 83px;
+      font-size: 11px;
+      letter-spacing: 5px;
+      margin-left: 13px;
+
+      &::before {
+        font-size: 16px;
+      }
+
+      &::after {
+        content: '</p>';
+        font-family: 'La Belle Aurore';
+        color: #5a5a5b;
+        font-size: 16px;
+        position: absolute;
+        margin-top: 11px;
+        left: -15px;
+        animation: fadeIn 1s 1.7s backwards;
+        opacity: 0.6;
+      }
+    }
+    .text-zone {
+      width: 100%;
+      left: 20%;
+    }
+  }
+
+  .flat-button {
+    margin-top: 68px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+}
