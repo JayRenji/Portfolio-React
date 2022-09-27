@@ -1,0 +1,17 @@
+{
+  "portfolio": [
+    {
+      "cover": "/portfolio/projects/pokedex.png",
+      "title": "Pokedex",
+      "description": "HTML,Js,CSS",
+      "url": "https://github.com/JayRenji/Upgrade-Js-Project--Pokedex"
+    },
+
+    {
+      "cover": "/portfolio/projects/game.png",
+      "title": "Game Awards",
+      "description": "HTML,Js,SCSS, React,Json,Redux,Hooks",
+      "url": "https://github.com/JayRenji/The-Game-Awards-React"
+    }
+  ]
+}
