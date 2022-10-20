@@ -34,7 +34,7 @@ const Portfolio = () => {
       <div className="images-container">
         {portfolio.map((port, idx) => {
           return (
-            <div className="thumbnail-box" key={idx}>
+            <div className="image-box" key={idx}>
               <img
                 src={port.image}
                 className="portfolio-image"
@@ -69,7 +69,7 @@ const Portfolio = () => {
             idx={15}
           />
         </h1>
-        {<div>{renderPortfolio(portfolio)}</div>}
+        <div>{renderPortfolio(portfolio)}</div>
       </div>
       <Loader type="ball-clip-rotate-multiple" />
     </>

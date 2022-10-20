@@ -64,10 +64,10 @@ const Home = () => {
           <h2>
             Front-end Developer/ JavaScript/ Linguistics Coaching/ Translator
           </h2>
-          <Link to="/contact" className="flat-button">
-            CONTACT ME
-          </Link>
         </div>
+        <Link to="/contact" className="flat-button">
+          CONTACT ME
+        </Link>
       </div>
       <Loader type="ball-clip-rotate-multiple" />
     </>
